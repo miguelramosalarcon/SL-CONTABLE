@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+body{
+
+}
+
+/* Estilos de la barra superior */
+.header_superior-svg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+svg{
+    width: 20px;
+    height: 20px;
+}
+
+.header_container {
+    width: 100%;
+    height: auto;
+}
+
+.header_superior{
+    background-color: #0D1E2E;
+    color:white;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    padding: 15px 30px;
+}
+
+/* Estilos del menú de navegación */
+.header_nav-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px 40px;
+
+}
+
+.header_nav{
+    background-color: white;
+    width: 100%;
+    height: auto;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.logo_container img{
+     width: 120px;
+    height: 90px;
+}
+
+.header_nav a:hover{
+    color: #8A6A3A;
+    text-decoration: underline;
+    transition: 0.3s ease;
+}
+
+.header_button a{
+    background-color: #8A6A3A;
+    color: whitesmoke;
+    padding: 20px 40px;
+    border-radius: 24px;
+    transition: 0.3s ease;
+}
+
+.header_button a:hover{
+    background-color: #0D1E2E;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+/* Estilos del hero */
+.hero_container, .sobremi_container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 80px;
+    background-color: #0D1E2E;
+    color: whitesmoke;
+}
+
+.img_hero{
+    width: 80%;
+    height: auto;
+}
+
+.hero_izquierda{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.hero_izquierda h1{
+    font-size: 35px;
+}
+
+.hero_izquierda h2, h2{
+    font-size: 18px;
+}
+
+.hero_izquierda p, p{
+    margin: 20px 0px;
+    font-size: 16px;
+    line-height: 1.5;
+}   
+
+.hero_buttons{
+    /* border:1px solid red; */
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.hero_buttons a{
+    padding: 20px 40px;
+    border-radius: 24px;
+    font-weight: bold;
+}
+
+.hero_btn-wame{
+    background-color: #8A6A3A;
+    color: whitesmoke;
+}
+
+
+.hero_btn-wame:hover{
+    background-color:whitesmoke;
+    color: #8A6A3A;
+    transition: .3s ease;
+}
+
+.hero_btn-servicios{
+    background-color: transparent;
+    border: 1px solid whitesmoke;
+    color: whitesmoke;
+}
+
+.hero_btn-servicios:hover{
+    background-color: whitesmoke;
+    border: 1px solid #8A6A3A;
+    color: #8A6A3A;
+    transition: .3s ease;
+
+}
